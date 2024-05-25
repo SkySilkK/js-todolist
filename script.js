@@ -12,6 +12,7 @@ addTaskButton.addEventListener("click", () => {
   //Add delete button to newTask and append to to every newTask that will be created
   const deleteTask = document.createElement("button")
   deleteTask.textContent = "Delete"
+  deleteTask.classList.add("btn", "btn-primary");
   newTask.append(deleteTask)
   
   // Listen on Delete Button when clicked remove the newTask
@@ -21,7 +22,7 @@ addTaskButton.addEventListener("click", () => {
   
   //Add update button to every newTask created
   const updateTask = document.createElement("button")
-  updateTask.textContent = "Update"
+  updateTask.textContent = "Edit"
   newTask.append(updateTask)
   
   //Listen on Submit button when clicked 
