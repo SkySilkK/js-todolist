@@ -1,0 +1,15 @@
+#add,
+#deleteAll{
+  border-style: none;
+  color: white;
+  border-radius: 3px;
+  padding: 0.25rem;
+}
+
+#add {
+  background-color:hsl(153, 94%, 73%);
+}
+
+#deleteAll {
+  background-color:  hsl(0, 94%, 73%);
+}
